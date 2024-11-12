@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* vermelho */
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.section-header {
+    background-color: rgba(255, 0, 0, 0.514);
+    height: 15vh;
+    width: 100%;
+}
+
+.container-middle {
+    display: flex;
+    flex-direction: row;
+}
+
+/* amarelo  */
+.article-left {
+    background-color: rgba(255, 255, 0, 0.623);
+    height: 70vh;
+    width: 25%;
+    order: 1;
+}
+
+/* branco */
+.article-middle {
+    height: 70vh;
+    width: 50%;
+    order: 2;
+}
+
+/* verde */
+.article-right {
+    background-color: rgba(172, 255, 47, 0.774);
+    height: 70vh;
+    width: 25%;
+    order: 3;
+}
+
+/* azul */
+footer {
+    display: flex;
+    width: 100%;
+}
+
+.section-footer {
+    background-color: rgba(0, 119, 255, 0.726);
+    height: 15vh;
+    width: 100%;
+}
